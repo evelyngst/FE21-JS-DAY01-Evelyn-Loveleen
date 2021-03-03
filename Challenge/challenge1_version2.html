@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <script>
         var sentence = [
             ["Vienna ", " ", " ", " ", " "],
@@ -18,11 +19,7 @@
             [" ", " ", " ", " ", "city"]
         ]
 
-        document.write(sentence[0][0])
-        document.write(sentence[1][1])
-        document.write(sentence[2][2])
-        document.write(sentence[3][3])
-        document.write(sentence[4][4])
+        document.write(sentence.toString().split(',').join(' <br>'))
     </script>
 </body>
 
