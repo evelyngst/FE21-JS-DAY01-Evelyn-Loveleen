@@ -9,19 +9,25 @@
 <body>
     <script>
         var sentence = [
-            ["Vienna ", " ", " ", " ", " "], 
-            [" ", "is ", " ", " ", " "], 
-            [" ", " ", "a ", " ", " "], 
+            ["Vienna ", "<br>", " ", " ", " "], 
+            [" ", "is ", "<br>", " ", " "], 
+            [" ", " ", "a ", "<br>", " "], 
             [" ", " ", " ", "nice ", " "], 
-            [" ", " ", " ", " ", "city"]
+            ["<br>", " ", " ", " ", "city"]
         ]
-        document.write(sentence.toString())
-        document.write(sentence.split())
+        // document.write(sentence.toString())
+        // document.write(sentence.split())
         document.write(sentence[0][0])
+        document.write(sentence[0][1]) //br
+        // document.write(sentence <\n>)
         document.write(sentence[1][1])
+        document.write(sentence[1][2]) //br
         document.write(sentence[2][2])
+        document.write(sentence[2][3]) //br
         document.write(sentence[3][3])
+        document.write(sentence[4][0]) //br
         document.write(sentence[4][4])
+        
         
     </script>
 </body>
